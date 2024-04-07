@@ -1,0 +1,17 @@
+[
+  {
+    "id": "411d7482-1093-4976-ada0-ef902f337126",
+    "departureCity": "Rennes",
+    "arrivalCity": "Paris"
+  },
+  {
+    "id": "511d7482-1093-4976-ada0-ef902f337126",
+    "departureCity": "Barcelone",
+    "arrivalCity": "Madrid"
+  },
+  {
+    "id": "74ac29dd-7d25-4823-b437-7170ba091360",
+    "departureCity": "Abidjan",
+    "arrivalCity": "San pedro"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/internal/api/v1/users/996af67b-5fc9-4e3c-ba97-c3ad8f01994a"
+  },
+
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "996af67b-5fc9-4e3c-ba97-c3ad8f01994a",
+      "username": "Jocelin Degni",
+      "email": "jojo@mail.com"
+    }
+  }
+}

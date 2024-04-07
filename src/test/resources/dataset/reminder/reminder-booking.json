@@ -1,0 +1,27 @@
+[
+  {
+    "id": "booking_will_start_soon_1",
+    "userId": "996af67b-5fc9-4e3c-ba97-c3ad8f01994a",
+    "travelId": "411d7482-1093-4976-ada0-ef902f337126",
+    "reminded": false
+  },
+  {
+    "id": "booking_will_start_soon_2",
+    "userId": "996af67b-5fc9-4e3c-ba97-c3ad8f01994a",
+    "travelId": "511d7482-1093-4976-ada0-ef902f337126",
+    "reminded": false
+  },
+  {
+    "id": "booking_will_not_start_soon_3",
+    "userId": "996af67b-5fc9-4e3c-ba97-c3ad8f01994a",
+    "travelId": "74ac29dd-7d25-4823-b437-7170ba091360",
+    "reminded": false
+  },
+  {
+    "id": "booking_will_start_soon_but_all_ready_reminded",
+    "userId": "996af67b-5fc9-4e3c-ba97-c3ad8f01994a",
+    "travelId": "411d7482-1093-4976-ada0-ef902f337126",
+    "reminded": true
+  }
+
+]

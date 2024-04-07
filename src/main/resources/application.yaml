@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVER}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer:  org.springframework.kafka.support.serializer.JsonSerializer
+
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
+
+user-account:
+    url: http://useraccount-ws
+    get-user-path: /internal/api/v1/users/{userId}
+
+kafka:
+  topics:
+    messaging: messaging-topic
+
