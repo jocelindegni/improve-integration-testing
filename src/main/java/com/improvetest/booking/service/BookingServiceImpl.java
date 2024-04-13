@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -20,10 +21,20 @@ public class BookingServiceImpl implements BookingService {
     private final TravelRepository travelRepository;
 
     @Override
+    public Optional<Booking> getBookingById(String id) {
+        return bookingRepository.findById(id);
+    }
+
+    @Override
     public Booking save(Booking booking) {
         booking.setId(UUID.randomUUID().toString());
         booking.setBookingNumber(UUID.randomUUID().toString());
         return bookingRepository.save(booking);
+    }
+
+    @Override
+    public void deleteBooking(String bookingId) {
+        bookingRepository.deleteById(bookingId);
     }
 
     @Override

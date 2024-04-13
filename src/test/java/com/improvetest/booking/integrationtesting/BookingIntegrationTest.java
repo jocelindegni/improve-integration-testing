@@ -70,6 +70,7 @@ class BookingIntegrationTest extends IntegrationTest {
         assertEquals(1, bookingNotificationDTOS.size());
         var bookingNotificationDTO = bookingNotificationDTOS.get(0);
         assertNotNull(bookingNotificationDTO.getBookingNumber());
+        assertEquals("CREATED", bookingNotificationDTO.getType());
         assertEquals(PLACE_NUMBER, bookingNotificationDTO.getPlaceNumber());
         assertEquals(TRAVEL_ID, bookingNotificationDTO.getTravelId());
         assertEquals(USER_EMAIL, bookingNotificationDTO.getUserEmail());

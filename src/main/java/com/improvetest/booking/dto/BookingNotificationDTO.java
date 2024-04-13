@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class BookingNotificationDTO {
+    private String type;
     private String bookingNumber;
     private String travelId;
     private String placeNumber;
